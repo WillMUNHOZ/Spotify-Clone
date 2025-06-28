@@ -1,0 +1,27 @@
+.iconbtn {
+    display: flex;
+    align-items: center;
+    background-color: #282828 !important;
+    margin:10px;
+    width: 40px;
+    height: 40px;
+    padding: 10px;
+    border-radius: 50%;
+    font-weight: 600;
+    cursor: default;
+}
+.iconbtn:hover {
+    background-color: #727272 !important;
+}
+.iconbtn:active {
+    transform: scale(1);
+    opacity: 0.8;
+}
+.iconbtn img {
+    width: 100%;
+    height: 100%;
+    background-color: #282828;
+}
+.iconbtn:hover img{
+    background-color: #727272 !important;
+}

@@ -1,0 +1,81 @@
+.header {
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 0;
+    padding: 8px 0 8px 20px;
+}
+
+.search {
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 8px;
+}
+
+.inputContainer {
+    width: 480px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 8px;
+    border-radius: 28px;
+    height: 48px;
+    padding: 10px;
+    background-color: #1F1F1F;
+    transition: all 0.1s;
+}
+
+.inputContainer:hover {
+    filter: brightness(1.3)
+}
+
+.inputContainer:focus-within {
+    border: 2px solid #FFFFFF;
+    filter: brightness(1.3)
+}
+
+.inputContainer img {
+    width: 30px;
+    cursor: pointer;
+    background-color: transparent;
+}
+
+.inputContainer input {
+    background-color: #1F1F1F;
+    width: 100%;
+    height: 25px;
+    border: none;
+    outline: none;
+    caret-color: #FFFFFF;
+    font-size: 14px;
+    font-weight: 500;
+    transition: all 0.3s ease;
+    border-right: 1px solid #b3b3b3e1;
+}
+
+.inputContainer input::placeholder{
+    color: #b3b3b3;
+}
+
+.login {
+    display: flex;
+    align-items: center;
+    gap: 30px;
+}
+
+.signup {
+    color: #B3B3B3;
+    text-decoration: none;
+    font-size: 14px;
+    font-weight: 700;
+}
+
+.signup:hover {
+    transform: scale(1.05);
+    color: #FFFFFF;
+}

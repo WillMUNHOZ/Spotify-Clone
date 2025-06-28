@@ -1,0 +1,15 @@
+.iconbtn {
+    display: flex;
+    align-items: center;
+    width: 35px;
+    height: 35px;
+    border-radius: 50%;
+    font-size: 12px;
+    font-weight: 600;
+    cursor: pointer;
+    transition: all .08s;
+}
+.iconbtn img {
+    width: 100%;
+    height: 100%;
+}

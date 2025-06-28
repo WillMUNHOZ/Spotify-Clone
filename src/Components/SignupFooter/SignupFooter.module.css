@@ -1,0 +1,29 @@
+.signup {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 100%;
+    color: #FFFFFF;
+    background: linear-gradient(to right, #AE2896, #519BF5);
+    padding: 0 16px;
+    cursor: pointer;
+}
+
+.content {
+    background-color: transparent;
+}
+
+.content p:last-child {
+    background-color: transparent;
+    font-size: 14px;
+}
+
+.content p:first-child {
+    background-color: transparent;
+    font-size: 13px;
+    font-weight: 700;
+}
+
+.btn {
+    background-color: transparent;
+}

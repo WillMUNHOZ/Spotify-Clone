@@ -1,0 +1,26 @@
+.iconbtn {
+    display: flex;
+    align-items: center;
+    width: 45px;
+    height: 45px;
+    padding: 10px;
+    border-radius: 50%;
+    font-size: 12px;
+    font-weight: 600;
+    cursor: pointer;
+    transition: all .08s;
+    background-color: #212121;
+}
+.iconbtn:hover {
+    transform: scale(1.03);
+    opacity: 0.98;
+}
+.iconbtn:active {
+    transform: scale(1);
+    opacity: 0.8;
+}
+.iconbtn img {
+    width: 100%;
+    height: 100%;
+    background-color: transparent;
+}

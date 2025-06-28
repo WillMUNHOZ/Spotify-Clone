@@ -1,0 +1,76 @@
+#card {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    gap: 3px;
+    width: 100%;
+    height: auto;
+    padding: 10px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: all 0.1s ease-in-out;
+    background-color: transparent;
+}
+
+#card:hover {
+    background-color: #1F1F1F;
+}
+
+#card h2 {
+    margin-top: 5px;
+    max-width: 220px;
+    background-color: transparent;
+    color: #FFFFFF;
+    font-size: 16px;
+    font-weight: 400;
+    word-spacing: -1px;
+}
+
+#card p {
+    max-width: 220px;
+    max-height: 40px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    display: -webkit-box;
+    -webkit-box-orient: vertical;
+    -webkit-line-clamp: 2;
+    line-clamp: 2;
+    background-color: transparent;
+    color: #B3B3B3;
+    font-size: 14px;
+    font-weight: 400;
+    word-spacing: -1px;
+    text-overflow: ellipsis;
+}
+
+.circle {
+    width: 100%;
+    aspect-ratio: 1;
+    border-radius: 50%;
+    object-fit: cover;
+    box-shadow: 0 10px 20px rgb(0, 0, 0, 0.5);
+}
+
+.square {
+    width: 100%;
+    height: auto;
+    border-radius: 5px;
+    object-fit: cover;
+    box-shadow: 0 10px 10px rgb(0, 0, 0, 0.5);
+}
+
+.btn {
+    display: flex;
+    background-color: transparent;
+    position: absolute;
+    bottom: 70px;
+    right: 20px;
+    transform: translateY(10px);
+    opacity: 0;
+    transition: all 0.25s ease-in-out;
+}
+
+#card:hover .btn {
+    opacity: 1;
+    transform: translateY(0);
+}

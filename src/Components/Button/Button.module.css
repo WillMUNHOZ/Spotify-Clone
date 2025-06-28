@@ -1,0 +1,31 @@
+.btn {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: fit-content;
+    height: fit-content;
+    border-radius: 28px;
+    background-color: #FFFFFF;
+    cursor: pointer;
+    transition: all .08s ease-in-out;
+    text-decoration: none;
+    color: black;
+}
+.btn:hover {
+    transform: scale(1.03);
+    opacity: 0.98;
+}
+.btn:active {
+    transform: scale(1);
+    opacity: 0.8;
+}
+.medium {
+    font-size: 12px;
+    padding: 8px 20px;
+    font-weight: 700;
+}
+.big {
+    font-size: 14px;
+    padding: 14px 34px;
+    font-weight: 700;
+}

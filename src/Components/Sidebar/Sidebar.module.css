@@ -1,0 +1,195 @@
+.sidebar {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    padding: 8px;
+    background-color: transparent;
+}
+
+.header {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    gap: 20px;
+    background-color: transparent;
+    padding: 8px;
+    margin-bottom: 8px;
+}
+
+.header div {
+    background-color: transparent;
+}
+
+.librari {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    cursor: pointer;
+    transition: all 0.3s ease;
+}
+
+.librari:hover {
+    filter: brightness(1.5)
+}
+
+.librari img {
+    width: 35px;
+    background-color: transparent;
+}
+
+.header h4 {
+    background-color: transparent;
+    color: #b3b3b3;
+}
+
+.iconNew {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 32px;
+    height: 32px;
+    cursor: pointer;
+    border-radius: 50%;
+}
+
+.iconNew:hover {
+    background-color: #282828;
+}
+
+.iconNew:hover img {
+    filter: brightness(1.5);
+}
+
+.iconNew img {
+    width: 18px;
+    background-color: transparent;
+    cursor: pointer;
+    border-radius: 50%;
+}
+
+.card {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    padding: 18px;
+    background-color: #1F1F1F;
+    color: #FFFFFF;
+    border-radius: 8px;
+}
+
+.card h4 {
+    background-color: transparent;
+    font-size: 14px;
+}
+
+.card p{
+    background-color: transparent;
+    font-size: 12px;
+}
+
+.btn {
+    background-color: transparent;
+    margin-top: 10px;
+}
+
+.footer {
+    background-color: transparent;
+    display: flex;
+    flex-direction: column;
+    justify-content: end;
+    gap: 5px;
+    height: 100%;
+    width: 100%;
+    padding-left: 16px;
+    margin-bottom: 30px;
+}
+
+.footer div {
+    background-color: transparent;
+
+}
+
+.footer ul {
+    background-color: transparent;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+}
+
+.footer li {
+    background-color: transparent;
+    display: block;
+}
+
+.footer a {
+    background-color: transparent;
+    text-decoration: none;
+    color: #b3b3b3;
+    font-size: 10px;
+}
+
+.cookie {
+    color: #FFFFFF !important;
+    font-size: 11px !important;
+}
+
+.btnLanguage a{
+    border: 1px solid #b3b3b3;
+    color: #FFFFFF;
+    font-size: 13px;
+    padding: 0;
+    padding: 3px 16px 3px 8px;
+    margin-top: 28px;
+}
+
+.btnLanguage a:hover {
+    filter: brightness(1.5);
+}
+
+.btnLanguage img{
+    width: 25px;
+    filter: brightness(2);
+    background-color: transparent;
+}
+
+@media screen and (min-width: 1280px) and (max-width: 1919px){
+    .sidebar {
+        gap: 10px;
+    }
+
+    .card h4 {
+        font-size: 11px;
+    }
+
+    .card p{
+        font-size: 10px;
+    }
+
+    .footer{
+        margin-bottom: 10px;
+    }
+
+    .btnLanguage a{
+        font-size: 12px;
+    }
+
+    .footer a {
+        font-size: 8px;
+    }
+
+    .cookie {
+        font-size: 9px !important;
+    }
+
+    .btnLanguage a {
+        margin-top: 10px;
+    }
+
+    .btnLanguage img{
+        width: 20px;
+    }
+}
